@@ -32,7 +32,7 @@ This script has been developed considering following options stored in mysql dat
 intervals and also update settings based on this. 
 
 ```
-idleTimeSecsThreshold: Total Idle time threshold in seconds, if it crosses, system will notify user about the idle time (Script Default: 40 Secs)
+**idleTimeSecsThreshold:** Total Idle time threshold in seconds, if it crosses, system will notify user about the idle time (Script Default: 40 Secs)
 
 encodeKeyLogs: Flag to set encoded Key logs, True will encode key logs to base64 encoding (Script Default: false)
 
