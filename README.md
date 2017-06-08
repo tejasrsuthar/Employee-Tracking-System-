@@ -32,7 +32,7 @@ This script has been developed considering following options stored in mysql dat
 intervals and also update settings based on this. 
 
 ```
-**idleTimeSecsThreshold:** Total Idle time threshold in seconds, if it crosses, system will notify user about the idle time (Script Default: 40 Secs)
+idleTimeSecsThreshold: Total Idle time threshold in seconds, if it crosses, system will notify user about the idle time (Script Default: 40 Secs)
 
 encodeKeyLogs: Flag to set encoded Key logs, True will encode key logs to base64 encoding (Script Default: false)
 
@@ -45,6 +45,17 @@ optionsUpdateInterval: Every interval system will fetch this table options and u
 
 
 #### Dependencies
+
+`
+ "child-process": "^1.0.2",
+    "fullname": "^3.3.0",
+    "ip": "^1.1.5",
+    "macaddress": "^0.2.8",
+    "mysql": "^2.13.0",
+    "node-notifier": "^5.1.2",
+    "os-utils": "0.0.14",
+    "xinput-mouse-key-logger": "^1.0.1"
+`
 
 #### How to Use
 
