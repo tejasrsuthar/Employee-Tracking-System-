@@ -46,7 +46,7 @@ optionsUpdateInterval: Every interval system will fetch this table options and u
 
 #### Dependencies
 
-`
+```
  "child-process": "^1.0.2",
     "fullname": "^3.3.0",
     "ip": "^1.1.5",
@@ -55,7 +55,7 @@ optionsUpdateInterval: Every interval system will fetch this table options and u
     "node-notifier": "^5.1.2",
     "os-utils": "0.0.14",
     "xinput-mouse-key-logger": "^1.0.1"
-`
+```
 
 #### How to Use
 
