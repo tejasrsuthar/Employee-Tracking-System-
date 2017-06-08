@@ -4,10 +4,10 @@ Tracking browsing activity using NodeJS &amp; Store activity to MySQL
 Note: This script is developed for propotype only. Should not be used in production environment.
 Note: Heavy work is under progress, you can browse the code and install it in testing environment.
 
-#### What this script will do:
+### What this script will do:
 This node.js script will track user browsing activity. 
 
-#### How to Install
+### How to Install
 
 **Step 1:** Just clone the repository.
 
@@ -27,7 +27,7 @@ This node.js script will track user browsing activity.
 `$ node index.js`
 
 
-#### Options
+### Options
 This script has been developed considering following options stored in mysql database. Everytime script will get settigns on specided
 intervals and also update settings based on this. 
 
@@ -44,7 +44,7 @@ optionsUpdateInterval: Every interval system will fetch this table options and u
 ```
 
 
-#### Dependencies
+### Dependencies
 
 ```
  "child-process": "^1.0.2",
@@ -57,5 +57,5 @@ optionsUpdateInterval: Every interval system will fetch this table options and u
     "xinput-mouse-key-logger": "^1.0.1"
 ```
 
-#### How to Use
+### How to Use
 
