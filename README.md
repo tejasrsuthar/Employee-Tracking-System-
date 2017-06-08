@@ -31,8 +31,8 @@ This node.js script will track user browsing activity.
 This script has been developed considering following options stored in mysql database. Everytime script will get settigns on specided
 intervals and also update settings based on this. 
 
-
-`idleTimeSecsThreshold: Total Idle time threshold in seconds, if it crosses, system will notify user about the idle time (Script Default: 40 Secs)
+```
+idleTimeSecsThreshold: Total Idle time threshold in seconds, if it crosses, system will notify user about the idle time (Script Default: 40 Secs)
 
 encodeKeyLogs: Flag to set encoded Key logs, True will encode key logs to base64 encoding (Script Default: false)
 
@@ -40,8 +40,8 @@ idleNotificationTitle: Notification title text (Script Default: 'Your Idle Time'
 
 idleTimeCheckInterval: Set check interval for Idle state check in micro seconds (Script Default: 5 Secs)
 
-optionsUpdateInterval: Every interval system will fetch this table options and update it to script (Script Default: 1800 Secs)`
-
+optionsUpdateInterval: Every interval system will fetch this table options and update it to script (Script Default: 1800 Secs)
+```
 
 
 #### Dependencies
