@@ -57,5 +57,4 @@ optionsUpdateInterval: Every interval system will fetch this table options and u
     "xinput-mouse-key-logger": "^1.0.1"
 ```
 
-### How to Use
 
